@@ -125,6 +125,7 @@
           }
         }
       },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.4": {},
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -467,6 +468,14 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
+      "WFCodeGenLib/1.0.0-rc3": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.4"
+        },
+        "runtime": {
+          "WFCodeGenLib.dll": {}
+        }
+      },
       "WFLib/1.0.0": {
         "dependencies": {
           "Godot.SourceGenerators": "4.0.2",
@@ -478,7 +487,8 @@
           "SkiaSharp.Extended": "1.60.0",
           "SkiaSharp.NativeAssets.Linux": "2.88.3",
           "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.3",
-          "Svg.Skia": "0.6.0-preview6"
+          "Svg.Skia": "0.6.0-preview6",
+          "WFCodeGenLib": "1.0.0-rc3"
         },
         "runtime": {
           "WFLib.dll": {}
@@ -561,6 +571,13 @@
       "sha512": "sha512-LeUReW5ArMgKDmoQuuVNf7mee2K57hwhBsavNkLqlmZvGOCWdj1ySHQewQeRrletHtpXgeOZp2B67YZYMUYa6Q==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/7.0.4",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AxkxcPR+rheX0SmvpLVIGLhOUXAKG56a64kV9VQZ4y9gR9ZmPXnqZvHJnmwLSwzrEP6junUF11vuc+aqo5r68g==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.4",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -806,6 +823,11 @@
       "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "WFCodeGenLib/1.0.0-rc3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "WFLib/1.0.0": {
       "type": "project",

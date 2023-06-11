@@ -13,3 +13,5 @@ C:\prog\Wamfish\WFSkia\obj\Debug\net7.0\WFSkia.dll
 C:\prog\Wamfish\WFSkia\obj\Debug\net7.0\refint\WFSkia.dll
 C:\prog\Wamfish\WFSkia\obj\Debug\net7.0\WFSkia.pdb
 C:\prog\Wamfish\WFSkia\obj\Debug\net7.0\ref\WFSkia.dll
+C:\prog\Wamfish\WFSkia\bin\Debug\net7.0\WFCodeGenLib.dll
+C:\prog\Wamfish\WFSkia\bin\Debug\net7.0\WFCodeGenLib.pdb
